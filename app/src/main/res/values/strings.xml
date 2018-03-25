@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="temperature">Temperature:</string>
+    <string name="temperaturemin">Min:</string>
+    <string name="temperaturemax">Max:</string>
+
+    <string name="humidity">Humidty:</string>
+
+    <string name="windspeed">Windspeed:</string>
+
+    <string name="sunset">Sunset Time:</string>
+    <string name="sunrise">Sunrise Time:</string>
+
+</resources>
