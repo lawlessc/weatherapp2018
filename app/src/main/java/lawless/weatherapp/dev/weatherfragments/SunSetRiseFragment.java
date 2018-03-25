@@ -46,11 +46,4 @@ public class SunSetRiseFragment extends Fragment {
     }
 
 
-
-
-
-
-
-
-
 }

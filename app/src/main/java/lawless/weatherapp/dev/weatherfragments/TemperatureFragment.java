@@ -15,9 +15,6 @@ public class TemperatureFragment extends Fragment {
     TextView minT;
     TextView maxT;
 
-
-
-
     @Override
     public View onCreateView(
             LayoutInflater inflater,
@@ -33,20 +30,13 @@ public class TemperatureFragment extends Fragment {
     }
 
 
-
     public void updateTemperature(float current, float min, float max)
     {
-
                                    //convert to metric here, celcius
         CurrentTemperature.setText(String.valueOf(current - 273.15f)+"°C" );
         minT.setText(String.valueOf(min- 273.15f)+"°C");
         maxT.setText(String.valueOf(max- 273.15f)+"°C");
 
     }
-
-
-
-
-
 
 }

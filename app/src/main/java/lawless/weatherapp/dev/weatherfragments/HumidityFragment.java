@@ -12,9 +12,7 @@ import lawless.weatherapp.dev.R;
 
 public class HumidityFragment extends Fragment {
 
-
     TextView Humidity;
-
     @Override
     public View onCreateView(
             LayoutInflater inflater,

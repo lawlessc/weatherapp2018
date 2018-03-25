@@ -22,11 +22,8 @@ public class WindSpeedFragment extends Fragment {
         View view = inflater.inflate(R.layout.wind_data_fragment, container, false);
 
         Windspeed = (TextView) view.findViewById(R.id.windspeedtext);
-
-
         return view;
     }
-
 
     public void updateWindSpeed(float speed)
     {

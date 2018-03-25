@@ -15,10 +15,7 @@ import lawless.weatherapp.dev.R;
 
 public class IconFragment extends Fragment {
 
-
     ImageView icon;
-
-
 
 
     @Override

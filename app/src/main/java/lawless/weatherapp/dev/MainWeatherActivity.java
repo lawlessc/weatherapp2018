@@ -16,8 +16,6 @@ import lawless.weatherapp.dev.weatherfragments.WindSpeedFragment;
 
 public class MainWeatherActivity extends AppCompatActivity {
 
-
-
     WeatherOb weather;
     ImageView background;
     TextView weathername;

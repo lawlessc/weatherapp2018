@@ -210,7 +210,6 @@ public class Weather {
     }
 
 
-
     public void parseJson(String response)
     {
 
@@ -221,21 +220,16 @@ public class Weather {
 
             JSONArray weather = jsonObject.getJSONArray("weather");
 
-
             JSONObject wind = new JSONObject(jsonObject.getString("wind"));
-
             JSONObject main = new JSONObject(jsonObject.getString("main"));
 
            CurrentTemperature= Float.valueOf(  main.getString("temp"));
            MinimunTemperature= Float.valueOf(  main.getString("temp_min"));
            MaximumTemperature= Float.valueOf(  main.getString("temp_max"));
 
-
-            JSONObject jsonObjecticon =  weather.getJSONObject(0);
-            weatherIconurl =  jsonObjecticon.getString("icon");
-
-            weather_type_name =jsonObjecticon.getString("main");
-
+           JSONObject jsonObjecticon =  weather.getJSONObject(0);
+           weatherIconurl =  jsonObjecticon.getString("icon");
+           weather_type_name =jsonObjecticon.getString("main");
 
            Humidity=   Float.valueOf(  main.getString("humidity"));
            WindSpeed = Float.valueOf(  wind.getString("speed"));
@@ -248,8 +242,6 @@ public class Weather {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
-
     }
 
     //override this
@@ -257,9 +249,4 @@ public class Weather {
     {
 
     }
-
-
-
-
-
 }
